@@ -44,7 +44,7 @@ export default function ProjectCard({
 
   return (
     <>
-      <div className="w-full max-w-[420px] sm:max-w-[480px] py-4 mr-1 rounded-lg border border-gray-200/40 bg-gray-900/40 shadow-sm backdrop-blur text-center hover:shadow-lg transition-shadow">
+      <div className="w-[400px] py-4 mr-1 rounded-lg border border-gray-200/40 bg-gray-900/40 shadow-sm backdrop-blur text-center hover:shadow-lg transition-shadow">
         {/* Header */}
         <div className="flex justify-between items-center px-3">
           <h3 className="text-lg font-semibold text-white/90">{title}</h3>
