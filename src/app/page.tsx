@@ -83,9 +83,6 @@ export default function Home() {
           <ProfileSection />
           <section id="proyectos" className="py-16 px-6 md:px-12 text-center">
             <h2 className="text-4xl font-bold mb-8">Proyectos</h2>
-            <p className="text-lg text-gray-400 mb-6">
-              🚧 Próximamente mostraré mis proyectos destacados aquí.
-            </p>
             <div className="w-auto flex-col">
             <div className="mx-auto max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 place-items-center">
               <ProjectCard  {...project} />
