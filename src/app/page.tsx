@@ -87,7 +87,7 @@ export default function Home() {
               🚧 Próximamente mostraré mis proyectos destacados aquí.
             </p>
             <div className="w-auto flex-col">
-            <div className="flex flex-row text-center justify-around mb-2">
+            <div className="mx-auto max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 place-items-center">
               <ProjectCard  {...project} />
               <ProjectCard  {...project} />
             </div>

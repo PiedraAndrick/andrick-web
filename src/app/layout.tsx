@@ -1,9 +1,14 @@
 import "./globals.css";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Montserrat } from "next/font/google";
 export const metadata: Metadata = {
   title: "Portafolio de Andrick Piedra",
   description: "Desarrollador Web | Backend & Fullstack",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 const montserrat = Montserrat({
